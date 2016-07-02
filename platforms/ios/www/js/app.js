@@ -8,7 +8,6 @@
     var service = new EmployeeService();
     service.initialize().done(function () {
         $('body').html(new HomeView(service).render().$el);
-
     });
 
     /* --------------------------------- Event Registration -------------------------------- */
