@@ -13,6 +13,16 @@
         alert("Employee Directory v3.4");
     });
 
+    document.addEventListener('deviceready', function() {
+        if(navigator.notification) { // Override default HTML Dialog
+            window.alert = function(message) {
+                navigator.notification.alert(message, // Message
+                                             null, // Callback
+                                             "Workshop", // Title
+                                             'Ok'); // Button Name
+            };
+        }
+    },false );
     /* ---------------------------------- Local Functions ---------------------------------- */
     function findByName() {
         service.findByName($('.search-key').val()).done(function (employees) {
