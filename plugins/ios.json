@@ -18,6 +18,9 @@
         },
         "cordova-plugin-dialogs": {
             "PACKAGE_NAME": "com.tushar"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.tushar"
         }
     },
     "dependent_plugins": {}
