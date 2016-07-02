@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.tushar"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.tushar"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.tushar"
+        }
+    },
+    "dependent_plugins": {}
+}
